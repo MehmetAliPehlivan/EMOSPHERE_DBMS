@@ -1,0 +1,214 @@
+﻿
+@media print
+{
+   .noprint 
+   {
+	 visibility: hidden ;
+	 display: none;
+	 font-size :xx-small ;
+	}
+}
+@media print
+{
+   BODY
+   {
+	font-size :20pt;
+	}
+	.smallFont
+   {
+	font-size : xx-small ;
+	}
+
+   
+}
+
+ BODY {
+  font-family: "Geneva,Verdana,Arial";
+  font-size: 8pt;
+ 
+  background-color:#C8E79C;
+	}
+A	{
+	/*text-decoration: none*/
+	font-size: 8pt;
+	font-family: Geneva,Verdana,Arial;
+	color: #000000;
+	}
+A:hover
+{
+	color: #951719;
+	font-family: Geneva,Verdana,Arial;
+	text-decoration: underline;
+}
+
+
+TD		{ font-size: 8pt; font-family: Verdana; }
+TD.b	{ font-size: 10pt; font-family: Verdana; color: #FFFFFF;}
+
+
+.DataGridSorguHeader          {font-size:8	pt; font-family: Verdana; background-color:#4A3C8C; text-align:left ;font-style:normal;font-weight:bold;color:White;}
+.DataGridSorguHeaderOn        {font-size:8	pt; font-family: Verdana; background-color:#89B7CF; text-align:left ;font-style:normal;color:White;}
+.DataGridSorguHeader TD		  {font-size:10pt; font-family: Verdana; background-color:#4A3C8C; text-align:left ;font-style:normal;color:White;}
+.DataGridSorguHeader A		  {font-size: 8pt;font-family: Verdana;text-decoration: underline;color:White;text-align:left;font-style:normal}
+.DataGridSorguHeader A:hover  {font-size: 8pt;font-family: Verdana;text-decoration: underline;color:Gray;text-align:left;font-style:normal}
+.DataGridSorguSelectedItem    {font-size: 8pt; font-family: Verdana; background-color:#000099; text-align:left ;font-style:normal;color:White;}
+.DataGridSorguAlternatingItem {font-size: 8pt; font-family: Verdana; background-color:#CCCCCC; text-align:left ;font-style:normal;}
+.DataGridSorguItem		    {font-size: 8pt; font-family: Verdana; background-color:White; text-align:left ;font-style:normal;}
+.DataGridSorguFooter		{font-size:10pt; font-family: Verdana; background-color:#4A3C8C; text-align:left ;font-style:normal;color:White;}
+.DataGridSorguPager         {font-size: 8pt;font-family: Verdana;color: white;font-style: normal;background-color: #4A3C8C;height:15pt}
+.DataGridSorguPager A       {font-size: 8pt;font-family: Verdana;text-decoration: underline;color:White;}
+.DataGridSorguPager A:hover {font-size: 8pt;font-family: Verdana;text-decoration: underline;color:Gray;}
+.DataGridSorguCurrentPage   {font-size:8pt;font-family: Verdana;color:white;}
+.DataGridSorguPagerButton   {left:0pt;position:absolute; height:15pt}
+
+.DataGridListeHeader        {font-size:11pt; font-family: Verdana; background-color:#4A3C8C; text-align:left ;font-style:normal;color:White;}
+.DataGridListeSelectedItem  {font-size: 8pt; font-family: Verdana; background-color:#000099; text-align:left ;font-style:normal;color:White}
+.DataGridListeAlternatingItem{font-size: 8pt; font-family: Verdana; background-color:White; text-align:left ;font-style:normal;}
+.DataGridListeItem		   {font-size: 8pt; font-family: Verdana; background-color:White; text-align:left ;font-style:normal;}
+.DataGridListeFooter       {font-size:11pt; font-family: Verdana; background-color:#4A3C8C; text-align:left ;font-style:normal;color:White;}
+
+
+TEXTAREA	 { 
+	background-color: #FFFFFF;
+	color: #000000;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	MARGIN-LEFT: 0px;
+	BORDER-RIGHT: black 1px solid;
+	BORDER-TOP: black 1px solid;
+	BORDER-LEFT: black 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+	FONT-FAMILY: Verdana, arial, Tahoma;
+	z-index: 0;
+ } 
+SELECT{
+	background-color: #FFFFFF;
+	color: #000000;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	MARGIN-LEFT: 0px;
+	BORDER-RIGHT: black 1px solid;
+	BORDER-TOP: black 1px solid;
+	BORDER-LEFT: black 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+	FONT-FAMILY: Verdana, arial, Tahoma;
+	z-index: 999;
+	}
+
+
+INPUT { 
+	background-color: #FFFFFF;
+	color: #000000;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	MARGIN-LEFT: 0px;
+	BORDER-RIGHT: black 1px solid;
+	BORDER-TOP: grey 1px solid;
+	BORDER-LEFT: grey 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+	FONT-FAMILY: Verdana, arial, Tahoma;
+	z-index: 0;
+ }
+ 
+.inputadet { 
+	background-color: #FFFFFF;
+	color: #000000;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	MARGIN-LEFT: 0px;
+	BORDER-RIGHT: black 1px solid;
+	BORDER-TOP: grey 1px solid;
+	BORDER-LEFT: grey 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+	FONT-FAMILY: Verdana, arial, Tahoma;
+	TEXT-ALIGN: center;
+	z-index: 0;
+ }
+ 
+ .inputtutar { 
+	background-color: #FFFFFF;
+	color: #000000;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	MARGIN-LEFT: 0px;
+	BORDER-RIGHT: black 1px solid;
+	BORDER-TOP: grey 1px solid;
+	BORDER-LEFT: grey 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+	FONT-FAMILY: Verdana, arial, Tahoma;
+	TEXT-ALIGN:right ;
+	z-index: 0;
+ }
+.inputsubmit { 
+	background-color: #DBDBDB;
+	color: #000000;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	MARGIN-LEFT: 0px;
+	BORDER-RIGHT: black 1px solid;
+	BORDER-TOP: black 1px solid;
+	BORDER-LEFT: black 1px solid;
+	BORDER-BOTTOM: black 1px solid;
+	FONT-FAMILY: Verdana, arial, solid;
+	TEXT-ALIGN: center;
+	z-index: 0;
+ }
+.noborder { BORDER:0;background-color: #EFEFEF; } 
+.divbuttons{BORDER-RIGHT: 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: 1px solid; PADDING-LEFT: 2px; LEFT: 24px; PADDING-BOTTOM: 2px; BORDER-LEFT: 1px solid; CURSOR: hand; PADDING-TOP: 2px; BORDER-BOTTOM: 1px solid; POSITION: absolute;}
+.SayfaBaslik
+{
+font-size: 13pt; 
+font-family: Verdana; 
+position:absolute ; 
+
+}
+
+.disabled
+{
+background-color :#EEEEEE;
+color: Gray ;
+
+}
+
+.GrupPanel
+{
+BORDER-TOP-STYLE: solid; BORDER-RIGHT-STYLE: solid; 
+BORDER-LEFT-STYLE: solid;
+ POSITION: relative;
+ top:10px;
+ 
+BORDER-BOTTOM-STYLE: solid;
+border-width :1;
+}
+.GrupBaslik
+{
+	FONT-WEIGHT: bold;
+}
+
+.TabloBasligi		{ text-decoration: none; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #F5F5F5;}
+
+.altmenu 			{ text-decoration: none; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; WIDTH: 100%; CURSOR: hand; COLOR: #FFFFFF; PADDING-TOP: 0px; BORDER-BOTTOM: white 0px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4A3C8C; }
+.altmenu:hover 		{ text-decoration: none; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; WIDTH: 100%; CURSOR: hand; COLOR: #FFFFFF; PADDING-TOP: 0px; BORDER-BOTTOM: white 0px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #89B7CF; }
+.menuulasim 		{ text-decoration: none; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; WIDTH: 100%; CURSOR: hand; COLOR: #FFFFFF; PADDING-TOP: 0px; BORDER-BOTTOM: white 0px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4A3C8C;}
+.menuulasim:hover 	{ text-decoration: none; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; WIDTH: 100%; CURSOR: hand; COLOR: #FFFFFF; PADDING-TOP: 0px; BORDER-BOTTOM: white 0px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4A3C8C;}
+.ustmenu 	 		{ text-decoration: none; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; WIDTH: 100%; CURSOR: hand; COLOR: #FFFFFF; PADDING-TOP: 0px; BORDER-BOTTOM: white 0px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4A3C8C;}
+.ustmenu:hover 		{ text-decoration: none; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; WIDTH: 100%; CURSOR: hand; COLOR: #FFFFFF; PADDING-TOP: 0px; BORDER-BOTTOM: white 0px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #89B7CF;}
+.PanelHeader
+{
+ FONT-WEIGHT: bold; 
+ Z-INDEX: 120;
+ COLOR: white; POSITION: absolute;
+ BACKGROUND-COLOR: deepskyblue;
+ 
+}
+.SrvPanel
+{
+ Z-INDEX: 120;
+ POSITION: absolute;
+ BORDER-RIGHT: purple thin solid; 
+ BORDER-TOP: purple thin solid; 
+ BORDER-LEFT: purple thin solid;
+ BORDER-BOTTOM: purple thin solid;
+ color:Gray;
+ background-color:#F8F8F8
+}

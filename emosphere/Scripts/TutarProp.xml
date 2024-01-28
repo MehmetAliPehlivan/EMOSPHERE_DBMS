@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TutarProp>
+	<GroupSeperator Value="."></GroupSeperator>
+	<DecimalSeperator Value=","></DecimalSeperator>
+	<DecimalPlaces Value="2"></DecimalPlaces>
+	<Formating Value = "true"></Formating>
+	<AllowNegatives Value = "false"></Formating>
+</TutarProp> 
